@@ -1,0 +1,660 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        table,
+        th,
+        td {
+            border: 1px solid black;
+            border-radius: 10px;
+        }
+
+        #myHeader {
+            background-color: lightblue;
+            color: black;
+            padding: 40px;
+            text-align: center;
+            font-family: angsana new;
+            font-size: 200%;
+        }
+        
+        #bb {
+            background-color: rgb(0, 255, 128);
+            color: rgb(0, 0, 0);
+            padding: 40px;
+            text-align: center;
+            font-family: angsana new;
+            font-size: 200%;
+        }
+        #aa {
+            background-color: rgb(255, 0, 0);
+            color: rgb(0, 0, 0);
+            padding: 40px;
+            text-align: center;
+            font-family: angsana new;
+            font-size: 200%;
+        }
+        #qq {
+            background-color: rgb(153, 0, 255);
+            color: rgb(0, 0, 0);
+            padding: 40px;
+            text-align: center;
+            font-family: angsana new;
+            font-size: 200%;
+        }
+        #ww {
+            background-color: rgb(212, 0, 255);
+            color: rgb(0, 0, 0);
+            padding: 40px;
+            text-align: center;
+            font-family: angsana new;
+            font-size: 200%;
+        }
+        #ee {
+            background-color: rgb(255, 81, 0);
+            color: rgb(0, 0, 0);
+            padding: 40px;
+            text-align: center;
+            font-family: angsana new;
+            font-size: 200%;
+        }
+        #rr {
+            background-color: rgb(179, 255, 0);
+            color: rgb(0, 0, 0);
+            padding: 40px;
+            text-align: center;
+            font-family: angsana new;
+            font-size: 200%;
+        }
+        #tt {
+            background-color: rgb(0, 60, 255);
+            color: rgb(0, 0, 0);
+            padding: 40px;
+            text-align: center;
+            font-family: angsana new;
+            font-size: 200%;
+        }
+        #yy {
+            background-color: rgb(113, 0, 243);
+            color: rgb(0, 0, 0);
+            padding: 40px;
+            text-align: center;
+            font-family: angsana new;
+            font-size: 200%;
+        }
+        #uu {
+            background-color: rgb(238, 255, 0);
+            color: rgb(0, 0, 0);
+            padding: 40px;
+            text-align: center;
+            font-family: angsana new;
+            font-size: 200%;
+        }
+
+
+    </style>
+</head>
+
+<body>
+    <h1>รายการสินค้า</h1>
+    <table border="1" width="100%" cellpadding="10" cellspacing="5">
+        <thead>
+            <th>ลำดับ</th>
+            <th>รหัสสินค้า</th>
+            <th>ภาพสินค้า</th>
+            <th>ซื้อสินค้า</th>
+            <th>ราคา</th>
+            <th>ซื้อสินค้า</th>
+        </thead>
+        <tbody align="center" >
+            <tr id="bb" bgcolor="FFCCCC">
+                <td>
+                    1
+                </td>
+                <td>
+                    001
+                </td>
+                <td id="img">
+                    <img src="https://cdn.pixabay.com/photo/2016/03/05/19/02/abstract-1238247_640.jpg" width="100px" height="100px">
+                </td>
+                <td>เบอร์เกอร์</td>
+                <td>150.00</td>
+                <td>
+                    <a href="#">สั่งซื้อ</a>
+                </td>
+            </tr>
+            <tr id="aa" bgcolor="FFE5CC">
+                <td>
+                    2
+                </td>
+                <td>
+                    002
+                </td>
+                <td>
+                    <img src="https://cdn.pixabay.com/photo/2014/09/26/19/51/drink-462776_640.jpg" width="100px" height="100px">
+                </td>
+                <td>
+                    โคล่า
+                </td>
+                <td>30.00</td>
+                <td>
+                    <a href="#">สั่งซื้อ</a>
+                </td>
+            </tr>
+            <tr id="qq" bgcolor="FFFFCC">
+                <td>
+                    3
+                </td>
+                <td>
+                    003
+                </td>
+                <td>
+                    <img src="https://cdn.pixabay.com/photo/2017/01/20/12/26/meatballs-1994807_1280.jpg" width="100px" height="100px">
+                </td>
+                <td>
+                    ลูกชิ้น
+                </td>
+                <td>30.00</td>
+                <td>
+                    <a href="#">สั่งซื้อ</a>
+                </td>
+            </tr>
+            <tr id="ww" bgcolor="E5FFCC">
+                <td>
+                    4
+                </td>
+                <td>
+                    004
+                </td>
+                <td>
+                    <img src="https://cdn.pixabay.com/photo/2019/04/07/17/20/chicken-4110208_1280.jpg" width="100px" height="100px">
+                </td>
+                <td>
+                    ไก่ย่าง
+                </td>
+                <td>70.00</td>
+                <td>
+                    <a href="#">สั่งซื้อ</a>
+                </td>
+            </tr>
+            <tr id="ee" bgcolor="CCFFCC">
+                <td>
+                    5
+                </td>
+                <td>
+                    005
+                </td>
+                <td>
+                    <img src="https://cdn.pixabay.com/photo/2017/04/22/10/35/tom-yum-goong-2251015_1280.jpg" width="100px" height="100px">
+                </td>
+                <td>
+                    ต้มยำทะเล
+                </td>
+                <td>85.00</td>
+                <td>
+                    <a href="#">สั่งซื้อ</a>
+                </td>
+            </tr>
+            <tr id="rr" bgcolor="CCFFE5">
+                <td>
+                    6
+                </td>
+                <td>
+                    006
+                </td>
+                <td>
+                    <img src="https://img.kapook.com/u/2018/surauch/cooking/co1/inter1.jpg" width="100px" height="100px">
+                </td>
+                <td>
+                    สเต๊กปลาทอดกับซอสทาร์ทาร์
+                </td>
+                <td>120.00</td>
+                <td>
+                    <a href="#">สั่งซื้อ</a>
+                </td>
+            </tr>
+            <tr id="tt" bgcolor="CCFFFF">
+                <td>
+                    7
+                </td>
+                <td>
+                    007
+                </td>
+                <td>
+                    <img src="https://img.kapook.com/u/2018/surauch/cooking/co1/inter2.jpg" width="100px" height="100px">
+                </td>
+                <td>
+                    สเต๊กปลาแซลมอน
+                </td>
+                <td>120.00</td>
+                <td>
+                    <a href="#">สั่งซื้อ</a>
+                </td>
+            </tr>
+            <tr id="yy" bgcolor="CCE5FF">
+                <td>
+                    8
+                </td>
+                <td>
+                    008
+                </td>
+                <td>
+                    <img src="https://img.kapook.com/u/2018/surauch/cooking/co1/inter3.jpg" width="100px" height="100px">
+                </td>
+                <td>
+                    พอร์คชอปกับสลัดส้ม      
+                </td>
+                <td>120.00</td>
+                <td>
+                    <a href="#">สั่งซื้อ</a>
+                </td>
+            </tr>
+            <tr id="uu" bgcolor="CCCCFF">
+                <td>
+                    9
+                </td>
+                <td>
+                    009
+                </td>
+                <td>
+                    <img src="https://img.kapook.com/u/2018/surauch/cooking/co1/inter4.jpg" width="100px" height="100px">
+                </td>
+                <td>
+                    ไก่อบน้ำผึ้งมัสตาร์ด
+                </td>
+                <td>120.00</td>
+                <td>
+                    <a href="#">สั่งซื้อ</a>
+                </td>
+            </tr>
+            <tr id="bb" bgcolor="E5CCFF">
+                <td>
+                    10
+                </td>
+                <td>
+                    010
+                </td>
+                <td>
+                    <img src="https://img.kapook.com/u/2018/surauch/cooking/co1/inter5.jpg" width="100px" height="100px">
+                </td>
+                <td>
+                    ผักโขมอบชีส
+                </td>
+                <td>120.00</td>
+                <td>
+                    <a href="#">สั่งซื้อ</a>
+                </td>
+            </tr>
+            <tr id="aa" bgcolor="FFCCFF">
+                <td>
+                    11
+                </td>
+                <td>
+                    011
+                </td>
+                <td>
+                    <img src="https://img.kapook.com/u/2018/surauch/cooking/co1/inter6.jpg" width="100px" height="100px">
+                </td>
+                <td>
+                    ลาซานญ่าผักโขมอบชีส
+                </td>
+                <td>120.00</td>
+                <td>
+                    <a href="#">สั่งซื้อ</a>
+                </td>
+            </tr>
+            <tr id="qq" bgcolor="FFCCE5">
+                <td>
+                    12
+                </td>
+                <td>
+                    012
+                </td>
+                <td>
+                    <img src="https://img.kapook.com/u/2018/surauch/cooking/co1/inter7.jpg" width="100px" height="100px">
+                </td>
+                <td>
+                    สตูหมู
+                </td>
+                <td>120.00</td>
+                <td>
+                    <a href="#">สั่งซื้อ</a>
+                </td>
+            </tr>
+            <tr id="ww" bgcolor="FF9999">
+                <td>
+                    13
+                </td>
+                <td>
+                    013
+                </td>
+                <td>
+                    <img src="https://img.kapook.com/u/2018/surauch/cooking/co1/inter8.jpg" width="100px" height="100px">
+                </td>
+                <td>
+                    สตูเนื้อแกะ 
+                </td>
+                <td>120.00</td>
+                <td>
+                    <a href="#">สั่งซื้อ</a>
+                </td>
+            </tr>
+            <tr id="ee" bgcolor="FFCC99">
+                <td>
+                    14
+                </td>
+                <td>
+                    014
+                </td>
+                <td>
+                    <img src="https://img.kapook.com/u/2018/surauch/cooking/co1/inter9.jpg" width="100px" height="100px">
+                </td>
+                <td>
+                    มัคแอนด์ชีส
+                </td>
+                <td>120.00</td>
+                <td>
+                    <a href="#">สั่งซื้อ</a>
+                </td>
+            </tr>
+            <tr id="rr" bgcolor="FFFF99">
+                <td>
+                    15
+                </td>
+                <td>
+                    015
+                </td>
+                <td>
+                    <img src="https://img.kapook.com/u/2018/surauch/cooking/co1/inter10.jpg" width="100px" height="100px">
+                </td>
+                <td>
+                    สปาเกตตีมีทบอล
+                </td>
+                <td>120.00</td>
+                <td>
+                    <a href="#">สั่งซื้อ</a>
+                </td>
+            </tr>
+            <tr id="tt" bgcolor="CCFF99">
+                <td>
+                    16
+                </td>
+                <td>
+                    016
+                </td>
+                <td>
+                    <img src="https://img.kapook.com/u/2018/surauch/cooking/co1/inter11.jpg" width="100px" height="100px">
+                </td>
+                <td>
+                    สปาเกตตีพอร์คบอลชีส
+                </td>
+                <td>120.00</td>
+                <td>
+                    <a href="#">สั่งซื้อ</a>
+                </td>
+            </tr>
+            <tr id="yy" bgcolor="99FF99">
+                <td>
+                    17
+                </td>
+                <td>
+                    017
+                </td>
+                <td>
+                    <img src="https://img.kapook.com/u/2018/surauch/cooking/co1/inter12.jpg" width="100px" height="100px">
+                </td>
+                <td>
+                    มันบด
+                </td>
+                <td>120.00</td>
+                <td>
+                    <a href="#">สั่งซื้อ</a>
+                </td>
+            </tr>
+            <tr id="uu" bgcolor="99FFFF">
+                <td>
+                    18
+                </td>
+                <td>
+                    018
+                </td>
+                <td>
+                    <img src="https://img.kapook.com/u/2018/surauch/cooking/co1/inter13.jpg" width="100px" height="100px">
+                </td>
+                <td>
+                    มันบดอบชีสเบคอน
+                </td>
+                <td>120.00</td>
+                <td>
+                    <a href="#">สั่งซื้อ</a>
+                </td>
+            </tr>
+            <tr id="bb" bgcolor="99CCFF">
+                <td>
+                    19
+                </td>
+                <td>
+                    019
+                </td>
+                <td>
+                    <img src="https://img.kapook.com/u/2018/surauch/cooking/co1/inter14.jpg" width="100px" height="100px">
+                </td>
+                <td>
+                    ซุปผักโขม 
+                </td>
+                <td>120.00</td>
+                <td>
+                    <a href="#">สั่งซื้อ</a>
+                </td>
+            </tr>
+            <tr id="aa" bgcolor="9999FF">
+                <td>
+                    20
+                </td>
+                <td>
+                    020
+                </td>
+                <td>
+                    <img src="https://img.kapook.com/u/2020/wanwanat/mushroom-soup.jpg" width="100px" height="100px">
+                </td>
+                <td>
+                    ซุปครีมเห็ด 
+                </td>
+                <td>120.00</td>
+                <td>
+                    <a href="#">สั่งซื้อ</a>
+                </td>
+            </tr>
+            <tr id="qq" bgcolor="CC99FF">
+                <td>
+                    21
+                </td>
+                <td>
+                    021
+                </td>
+                <td>
+                    <img src="https://img.kapook.com/u/2018/surauch/cooking/co1/inter16.jpg" width="100px" height="100px">
+                </td>
+                <td>
+                    กราแตงมะกะโรนีทูน่าอะโวคาโด 
+                </td>
+                <td>120.00</td>
+                <td>
+                    <a href="#">สั่งซื้อ</a>
+                </td>
+            </tr>
+            <tr id="ww" bgcolor="FF99FF">
+                <td>
+                    22
+                </td>
+                <td>
+                    022
+                </td>
+                <td>
+                    <img src="https://img.wongnai.com/p/1600x0/2019/03/23/73a95587aa2f46e0b160e5a7d9ef430f.jpg" width="100px" height="100px">
+                </td>
+                <td>
+                    สเต๊กเนื้อ 
+                </td>
+                <td>120.00</td>
+                <td>
+                    <a href="#">สั่งซื้อ</a>
+                </td>
+            </tr>
+            <tr id="ee" bgcolor="FF99CC">
+                <td>
+                    23
+                </td>
+                <td>
+                    023
+                </td>
+                <td>
+                    <img src="https://img.wongnai.com/p/1920x0/2023/05/31/fa8dcec5c1244997bdf82204d1c3d7d5.jpg" width="100px" height="100px">
+                </td>
+                <td>
+                    ขาหมูเยอรมันเซาเออร์เคราท์ 
+                </td>
+                <td>120.00</td>
+                <td>
+                    <a href="#">สั่งซื้อ</a>
+                </td>
+            </tr>
+            <tr id="rr" bgcolor="FF6666">
+                <td>
+                    24
+                </td>
+                <td>
+                    024
+                </td>
+                <td>
+                    <img src="https://img.wongnai.com/p/1920x0/2023/01/31/a4c3b4228b6b4b3898804989d65c04c1.jpg" width="100px" height="100px">
+                </td>
+                <td>
+                    สเต๊กอกไก่ซอสครีมเห็ด 
+                </td>
+                <td>120.00</td>
+                <td>
+                    <a href="#">สั่งซื้อ</a>
+                </td>
+            </tr>
+            <tr id="tt" bgcolor="FFB266">
+                <td>
+                    25
+                </td>
+                <td>
+                    025
+                </td>
+                <td>
+                    <img src="https://img.wongnai.com/p/1920x0/2022/12/28/830f05b1089347949e542135772d6345.jpg" width="100px" height="100px">
+                </td>
+                <td>
+                    มักกะโรนีผัดกุ้ง 
+                </td>
+                <td>120.00</td>
+                <td>
+                    <a href="#">สั่งซื้อ</a>
+                </td>
+            </tr>
+            <tr id="yy" bgcolor="FFFF66">
+                <td>
+                    26
+                </td>
+                <td>
+                    026
+                </td>
+                <td>
+                    <img src="https://img.wongnai.com/p/1920x0/2022/09/18/7f49d7ca50f14d23a3952e3a35c52fb0.jpg" width="100px" height="100px">
+                </td>
+                <td>
+                    พิงค์มักกะโรนีแซลมอน 
+                </td>
+                <td>120.00</td>
+                <td>
+                    <a href="#">สั่งซื้อ</a>
+                </td>
+            </tr>
+            <tr id="uu" bgcolor="B2FF66">
+                <td>
+                    27
+                </td>
+                <td>
+                    027
+                </td>
+                <td>
+                    <img src="https://img.wongnai.com/p/400x0/2023/04/13/ac1d223edd434fcb89adc4d9f6308c2a.jpg" width="100px" height="100px">
+                </td>
+                <td>
+                    เบอร์เกอร์หมูคีโต 
+                </td>
+                <td>120.00</td>
+                <td>
+                    <a href="#">สั่งซื้อ</a>
+                </td>
+            </tr>
+            <tr id="bb" bgcolor="66FF66">
+                <td>
+                    28
+                </td>
+                <td>
+                    028
+                </td>
+                <td>
+                    <img src="https://img.wongnai.com/p/1920x0/2022/09/22/d91c4426c106450d8b16248bc61d84c2.jpg" width="100px" height="100px">
+                </td>
+                <td>
+                    เบอร์เกอร์ชีสลาวา 
+                </td>
+                <td>120.00</td>
+                <td>
+                    <a href="#">สั่งซื้อ</a>
+                </td>
+            </tr>
+            <tr id="aa" bgcolor="66FFB2">
+                <td>
+                    29
+                </td>
+                <td>
+                    029
+                </td>
+                <td>
+                    <img src="https://img.wongnai.com/p/1920x0/2022/06/02/82c25afddb724c1493fa115191db8180.jpg" width="100px" height="100px">
+                </td>
+                <td>
+                    พิซซ่าคัพ  
+                </td>
+                <td>120.00</td>
+                <td>
+                    <a href="#">สั่งซื้อ</a>
+                </td>
+            </tr>
+            <tr id="qq" bgcolor="66FFFF">
+                <td>
+                    30
+                </td>
+                <td>
+                    030
+                </td>
+                <td>
+                    <img src="https://img.wongnai.com/p/1920x0/2022/01/18/e0b225f307414008bb63303f574e5405.jpg" width="100px" height="100px">
+                </td>
+                <td>
+                    ซอสบาร์บีคิว
+                </td>
+                <td>120.00</td>
+                <td>
+                    <a href="#">สั่งซื้อ</a>
+                </td>
+            </tr>
+        </tbody>
+        <ifoot>
+            <tr bgcolor="00FF80">
+                <td>ราคารวม:3365บาท</td>
+            </tr>
+        </ifoot>
+    </table>
+</body>
+</html>
